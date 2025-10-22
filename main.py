@@ -29,5 +29,11 @@ def log(a,b):
 def fatorial(a):
     #lucas
     pass
+def area_cir(r):
+    #paulo
+    pass
 
+def area_ret(a,b):
+    #matheus
+    pass
 # Menu: Carlos
