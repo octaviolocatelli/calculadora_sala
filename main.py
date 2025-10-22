@@ -7,9 +7,9 @@ def subtracao(a,b):
     pass
 
 def multiplicacao(a,b):
-    n1 = input("Digite o primeiro número a ser multiplicado: ")
-    n2 = input("Digite o primeiro número a ser multiplicado: ")
-    print(n1 * n2)
+    a = input("Digite o primeiro número a ser multiplicado: ")
+    b = input("Digite o segundo número a ser multiplicado: ")
+    print(a * b)
     pass
 
 def divisao(a,b):
