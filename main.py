@@ -27,9 +27,19 @@ def log(a,b):
     pass
 
 def fatorial(a):
-    #lucas
+    "Calculando a fatorial do número a: FATORIAL = N x N-1 X N-2 X N-3 ..." 
+    if a < 0: 
+        return "Fatorial não existe"
+    elif a == 0 or a == 1: 
+        return 1 
+    else: 
+        resultado = 1 
+        for i  in range (2, a + 1): 
+            resultado *= i
+        return resultado 
+    
+    print(f" fatorial de 5 = {fatorial(5)}") 
     pass
-
 def area_cir(r):
     #paulo
     pass
