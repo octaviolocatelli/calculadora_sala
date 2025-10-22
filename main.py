@@ -45,7 +45,10 @@ def area_cir(r):
     pass
 
 def area_ret(a,b):
-    #matheus
+    B = float(input("Diga a base: "))
+    H = float(input("Diga a altura: "))
+    resultado = B * H
+    print(resultado)
     pass
 
 def exibir_menu():
