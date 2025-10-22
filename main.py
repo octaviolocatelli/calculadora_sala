@@ -1,6 +1,8 @@
-def soma(a,b):
-    #guilherme
-    pass
+def soma():
+    a = input("Digite o primeiro número a ser somado: ")
+    b = input("Digite o segundo número a ser somado: ")
+    print(a + b)
+    print("Duda e Cauã, amor incondicional")
 
 def subtracao(a,b):
     #duda
