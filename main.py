@@ -5,7 +5,7 @@ def soma():
     print("Duda e Cauã, amor incondicional")
 
 def subtracao(a,b):
-    #duda
+    print(a-b)
     pass
 
 def multiplicacao(a,b):
