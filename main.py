@@ -38,5 +38,3 @@ def fatorial(a):
     pass
 
 # Menu: Carlos
-
-git checkout -b Divisao
