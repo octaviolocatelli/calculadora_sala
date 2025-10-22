@@ -3,7 +3,7 @@ def soma(a,b):
     pass
 
 def subtracao(a,b):
-    #duda
+    print(a-b)
     pass
 
 def multiplicacao(a,b):
