@@ -30,8 +30,37 @@ def exponencial(a,b):
     pass
 
 def raiz(a,b):
-    #gabriel
-    pass
+    def raiz(a, b):
+
+        if a == 0:
+            return "Erro: O índice (a) não pode ser zero."
+
+        if b < 0 and a % 2 == 0:
+            return f"Erro: Não é possível calcular raiz de índice par ({a}) de um número negativo ({b})."
+
+        try:
+            resultado = b ** (1 / a)
+            return resultado
+
+        except Exception as e:
+
+            return f"Erro ao calcular a raiz: {e}"
+
+    print("--- Calculadora de Raiz Geral (Raiz 'a' de 'b') ---")
+
+    try:
+        a_texto = input("Por favor, digite o ÍNDICE da raiz (ex: 2 para raiz quadrada): ")
+        b_texto = input(f"Por favor, digite o NÚMERO (o valor dentro da raiz): ")
+
+        a_utilizador = float(a_texto)
+        b_utilizador = float(b_texto)
+
+        resultado = raiz(a_utilizador, b_utilizador)
+        print(f"O resultado é: {resultado}")
+
+    except ValueError:
+        print("Erro: Valores inválidos. Por favor, digite apenas números.")
+
 
 def log(a,b):
     #mateus
