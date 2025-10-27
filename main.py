@@ -15,7 +15,14 @@ def multiplicacao(a,b):
     pass
 
 def divisao(a,b):
-    #melissa
+    a = float(input('numerador:'))
+    b = float(input('denominador'))
+    if b == 0:
+        print('não é possível dividir por 0')
+    else:
+        resultado = a/b
+        print(resultado)
+
     pass
 
 def exponencial(a,b):
